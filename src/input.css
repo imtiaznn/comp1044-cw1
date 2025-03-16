@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Archivo';
+    src: url('fonts/Archivo-VariableFont_wdth\,wght.woff2') format('woff2'),
+         url('fonts/Archivo-Italic-VariableFont_wdth\,wght.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair';
+    src: url('fonts/PlayfairDisplay-VariableFont_wght.woff2') format('woff2'),
+         url('fonts/PlayfairDisplay-Italic-VariableFont_wght.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.serif-h1 {
+    @apply text-tertiary text-6xl font-playfaird font-bold;
+}
+
+.serif-h2 {
+    @apply text-tertiary text-4xl font-playfaird font-bold;
+}
+
+.sans-p {
+    @apply text-tertiary font-archivo text-xl;
+}
